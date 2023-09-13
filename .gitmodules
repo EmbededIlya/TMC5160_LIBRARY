@@ -1,0 +1,3 @@
+[submodule "Core/Lib/TMC5160-STM32-HAL"]
+	path = Core/Lib/TMC5160-STM32-HAL
+	url = https://github.com/Maker-Tech-RnD/TMC5160-STM32-HAL.git
