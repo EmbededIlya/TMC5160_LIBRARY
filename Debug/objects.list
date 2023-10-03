@@ -1,4 +1,4 @@
-"./Core/Src/TMC5160.o"
+"./Core/Lib/TMC5160-STM32-HAL/TMC5160.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32g4xx_hal_msp.o"
 "./Core/Src/stm32g4xx_it.o"

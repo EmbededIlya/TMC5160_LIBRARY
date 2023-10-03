@@ -1,5 +1,7 @@
-Core/Src/TMC5160.o: ../Core/Src/TMC5160.c ../Core/Inc/TMC5160.h \
- ../Core/Inc/main.h ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+Core/Lib/TMC5160-STM32-HAL/TMC5160.o: \
+ ../Core/Lib/TMC5160-STM32-HAL/TMC5160.c \
+ ../Core/Lib/TMC5160-STM32-HAL/TMC5160.h ../Core/Inc/main.h \
+ ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../Core/Inc/stm32g4xx_hal_conf.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
@@ -26,7 +28,7 @@ Core/Src/TMC5160.o: ../Core/Src/TMC5160.c ../Core/Inc/TMC5160.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
-../Core/Inc/TMC5160.h:
+../Core/Lib/TMC5160-STM32-HAL/TMC5160.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
 ../Core/Inc/stm32g4xx_hal_conf.h:
